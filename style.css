@@ -1,0 +1,59 @@
+:root {
+    --color-background: #222222;
+    --color-background-shadow: #4a4a4a;
+    --color-background-dark: #1a1a1a;
+    --color-text: #efefef;
+    --color-icon: #E1E1E1;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #1F232A #4a4a4a;
+}
+
+body, .ReactModal__Overlay, .miniPinGridItem {
+    background-color: var(--color-background) !important;
+}
+
+.appContent, .qJc {
+    background: var(--color-background) !important;
+}
+
+.gpV, .newsHubItem:focus, .newsHubItem:hover {
+    background-color: var(--color-background-shadow) !important;
+}
+
+.XiG.zI7.iyn.Hsu, .LegoGestalt_IconButton > div > div, .SendObjectBase, .Jea.gjz.jzS.zI7.iyn.Hsu > button, .XiG.zI7.iyn.Hsu > button > div, .previewRowFullWidthItem, .qJc.zI7.iyn.Hsu, .INd.Jea.gjz.mQ8.zI7.iyn.Hsu, .INd.zI7.iyn.Hsu, .hyC.Hsu.ujU.XbT.XiG, .bg-white {
+    background: var(--color-background-dark) !important;
+}
+
+.pBj, button, input, select, textarea, .sharePrompt, a:focus, a:hover, [data-test-id="login"] h3 {
+    color: var(--color-text) !important;
+}
+.fll {
+    border: inherit !important;
+}
+.previewRowFullWidthItem {
+    border-left: inherit !important;
+}
+.tBJ.dyH.iFc.SMy.yTZ.erh.tg7.mWe {
+    background: #e60023 !important;
+}
+.Jea.MIw.TpD.gjz.jzS.sLG.zI7.iyn.Hsu > .XiG.zI7.iyn.Hsu {
+    background: inherit !important;
+}
+.Jea.MIw.TpD.gjz.jzS.sLG.zI7.iyn.Hsu > div:nth-child(2) {
+    color: var(--color-text) !important;
+}
+.Jea.KO4.gjz.zI7.iyn.Hsu > div > a {
+    color: gray !important;
+}
+.Jea.KO4.gjz.zI7.iyn.Hsu > div > a:focus, .Jea.KO4.gjz.zI7.iyn.Hsu > div > a:hover {
+    color: var(--color-text) !important;
+}
+[data-test-id="simple-signup-button"] {
+    background-color: var(--color-background) !important;
+}
+[data-test-id="login"] {
+    background-color: var(--color-background-dark) !important;
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Ativar tema escuro no Pinterest",
+  "manifest_version": 2,
+  "name": "Pinterest Dark",
+  "author": "Johnendz",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.pinterest.com/*"],
+      "exclude_matches": ["*://policy.pinterest.com/*", "*://help.pinterest.com/*", "*://developers.pinterest.com/*", "*://business.pinterest.com/*", "*://about.pinterest.com/*", "*://newsroom.pinterest.com/*"],
+      "css":["style.css"],
+	  "run_at": "document_start"
+    }
+  ],
+  
+  "icons": {
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "64": "icons/64.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png",
+    "256": "icons/256.png"
+  }
+}
