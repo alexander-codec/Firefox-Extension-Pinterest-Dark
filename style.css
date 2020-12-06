@@ -19,11 +19,10 @@ body, .ReactModal__Overlay, .miniPinGridItem {
     background: var(--color-background) !important;
 }
 
-.gpV, .newsHubItem:focus, .newsHubItem:hover {
+.Jea.fev, .newsHubItem:focus, button > .INd.zI7.iyn.Hsu:hover, .Eqh.fev.gpV:hover {
     background-color: var(--color-background-shadow) !important;
 }
-
-.XiG.zI7.iyn.Hsu, .LegoGestalt_IconButton > div > div, .SendObjectBase, .Jea.gjz.jzS.zI7.iyn.Hsu > button, .XiG.zI7.iyn.Hsu > button > div, .previewRowFullWidthItem, .qJc.zI7.iyn.Hsu, .INd.Jea.gjz.mQ8.zI7.iyn.Hsu, .INd.zI7.iyn.Hsu, .hyC.Hsu.ujU.XbT.XiG, .bg-white {
+.LegoGestalt_IconButton > div > div, .SendObjectBase, .Jea.gjz.jzS.zI7.iyn.Hsu > button, .XiG.zI7.iyn.Hsu > button > div, .previewRowFullWidthItem, .hyC.Hsu.ujU.XbT.XiG, .bg-white, .SpV, .INd.gpV, button.gpV, .newsHubItem:hover {
     background: var(--color-background-dark) !important;
 }
 
